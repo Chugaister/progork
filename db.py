@@ -38,3 +38,7 @@ class Database:
             content += item.serialize() + "\n"
         return content
 
+    def sort_by(self, key: str):
+        return sorted(self.__items, key=lambda item: getattr(item, key))
+
+

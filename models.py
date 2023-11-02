@@ -59,3 +59,11 @@ class Worker:
 
     def __repr__(self):
         return self.serialize()
+
+
+class Delivery(Worker):
+    pass
+
+
+class NonDelivery(Worker):
+    pass

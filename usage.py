@@ -32,11 +32,18 @@ def test4():
     print("**FILE**\n", db.get_file_content(), "**FILE**\n\n")
 
 
+def test5():
+    print("test5")
+    db = Database("data.txt")
+    print(db.sort_by("salary"))
+
+
 def main():
     test1()
     test2()
     test3()
     test4()
+    test5()
 
 
 if __name__ == "__main__":
