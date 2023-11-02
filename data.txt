@@ -1,0 +1,3 @@
+Worker,1,Agat,50000
+Worker,2,Dmitru,10101
+Worker,3,Vasa,22222
